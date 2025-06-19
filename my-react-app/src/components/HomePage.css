@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+
+
+
+
+@keyframes glassGlide {
+  0% {
+    transform: translateX(-20%);
+  }
+  50% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(-20%);
+  }
+}
+
+@keyframes slideFade{
+    from{
+        opacity:0.2;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity:1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes upDownFade{
+    from{
+        opacity: 0.2;
+        transform: translateY(-100px)
+    }
+    to{
+        opacity: 1;
+
+    }
+}
+
+@keyframes rotateinfinite{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.tech-slider.card-black,
+.section2-spacing {
+  opacity: 0;
+}
+
+
+html, body {
+
+background:url("/Bg1.jpg");
+background-size: cover;
+}
+
+
+.Introduction {/* Reduced from 150px for better spacing */
+  font-family: 'Bungee', sans-serif;
+  animation: upDownFade 1s cubic-bezier(.4,2,.6,1);
+  margin-bottom: 150px;
+}
+
+.wrapper2.card-black {
+  background: rgba(20, 20, 20, 0.55); /* Less transparent, glassy black */
+  border-radius: 18px;
+  padding: 30px 28px 24px 28px; /* Reduce top padding for less height */
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.35);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1.5px solid rgba(255,255,255,0.18); /* Glassy border */
+  backdrop-filter: blur(8px) saturate(120%);
+  -webkit-backdrop-filter: blur(8px) saturate(120%);
+  animation: slideFade 1s cubic-bezier(.4,2,.6,1);
+}
+
+.intro-heading-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center-underline {
+  text-align: center;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.underline-anim {
+  display: block;
+  height: 3px;
+  width: 0;
+  background: #fff;
+  margin: 0 auto;
+  transition: width 0.5s cubic-bezier(.4,2,.6,1);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+}
+.underline-anim.show {
+  width: 100%;
+}
+.other{
+  margin-top: 2500px; /* Lower Section 1 even more */
+}
+.desc-justify {
+  text-align: justify;
+  color: #f3f3f3;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  margin: 0 auto;
+  max-width: 520px;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 1;
+  padding-top: 250px; /* Increased to bring Section1 further down from the top */
+}
+
+.section {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+}
+.margin{
+  margin-top: 30px;
+}
+.wrapperx{
+  padding-top: 30px;
+}
+/* Section2 card styling, same as Section1 */
+.wrapper3.card-black {
+  background: rgba(20, 20, 20, 0.55);
+  border-radius: 18px;
+  padding: 24px 28px 24px 28px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.35);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1.5px solid rgba(255,255,255,0.18);
+  backdrop-filter: blur(8px) saturate(120%);
+  -webkit-backdrop-filter: blur(8px) saturate(120%);
+  animation: slideFade 1s cubic-bezier(.4,2,.6,1);
+}
+
+.section2-spacing {
+  margin-top: 1px; /* Reduced from 50px to bring Section 2 a little up */
+}
+.tech-slider.card-black {
+   margin: 160px auto 30px auto;
+   display: flex;
+   justify-content: center;
+   align-items: center  ;
+  padding:20px;
+  width: 90%;
+  max-width: 1000px;
+  background: rgba(20, 20, 20, 0.55);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.35);
+  backdrop-filter: blur(8px) saturate(120%);
+  -webkit-backdrop-filter: blur(8px) saturate(120%);
+   border: 1.5px solid rgba(255,255,255,0.18);
+   transition: all 0.3s ease;
+  overflow: hidden;
+}
+.tech-slider.card-black:hover {
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.3);
+  border: 1.5px solid rgba(0, 255, 255, 0.25);
+  transform: scale(1.03);
+}
+
+.slider-track {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: scroll 25s linear infinite;
+}
+
+.slider-track img {
+  height: 60px;
+  margin: 0 30px;
+}
+
+@keyframes scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+
+.wrapper4.card-black{
+  background: rgba(20, 20, 20, 0.55);
+  border-radius: 18px;
+  padding: 24px 28px 24px 28px;
+  max-width: 600px;
+  margin-top: 40px;
+  margin-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.35);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1.5px solid rgba(255,255,255,0.18);
+  backdrop-filter: blur(8px) saturate(120%);
+  -webkit-backdrop-filter: blur(8px) saturate(120%);
+  animation: slideFade 1s cubic-bezier(.4,2,.6,1);
+}
+.novel-section {
+  position: relative;
+  max-width: 1200px;
+  margin: 150px auto 0 auto;
+  padding: 50px 20px;
+  width: 90%;
+  height: auto;
+  box-sizing: border-box;
+  color: white;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  border-radius: 18px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1),
+              inset 0 0 20px rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  padding: 20px;
+  transition: all 0.3s ease;
+  z-index: 1; /* keep content above background */
+}
+
+
+
+
+
+.bungee-heading {
+  font-family: 'Bungee', sans-serif;
+  padding-top: 50px;
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.novel-wrapper {
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+
+}
+
+.novel-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  border-radius: 18px;
+  backdrop-filter: blur(16px) saturate(180%);
+    position: relative;
+  height: 600px; /* or however tall you want them uniformly */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1),
+              inset 0 0 20px rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  padding: 20px;
+  transition: all 0.3s ease;
+  z-index: 0;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 600px;
+}
+.novel-card:hover {
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.15),
+              0 0 80px rgba(255, 255, 255, 0.05),
+              inset 0 0 30px rgba(255, 255, 255, 0.08);
+  transform: scale(1.015);
+  transition: all 0.3s ease;
+}
+.glass-shine {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.12) 0%,
+    rgba(255, 255, 255, 0.05) 40%,
+    rgba(255, 255, 255, 0.0) 80%
+  );
+  pointer-events: none;
+  z-index: 1;
+  mix-blend-mode: screen;
+  animation: glassGlide 6s ease-in-out infinite;
+}
+
+.novel-image-container {
+  position: relative;
+}
+
+.novel-image {
+  width: 100%;
+  filter: grayscale(100%);
+  border-radius: 10px;
+  transition: filter 0.4s ease;
+}
+
+.novel-image:hover {
+  filter: grayscale(0%);
+}
+
+.vertical-line {
+  position: absolute;
+  right: -15px;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: 2;
+}
+
+.novel-floating {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-style: italic;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  margin-top: auto; 
+  z-index: 2;
+
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+
+.glass-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.glass-button:hover {
+  background: white;
+  color: black;
+  border: 2px solid black;
+}
