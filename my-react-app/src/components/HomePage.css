@@ -537,12 +537,10 @@ background-size: cover;
     margin-top: 3400px; /* corrected mobile spacing */
   }
   .desc-justify {
-  text-align: justify;
-  color: #f3f3f3;
-  line-height: 1.6;
-  letter-spacing: 0.01em;
-  text-justify: 1px;
-  margin: 0 auto;
-  max-width: 520px;
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.5;
+    padding: 0 12px;
 }
+
 }

@@ -278,12 +278,9 @@ const Section3=()=>{
                 <span className={`underline-anim${done ? " show" : ""}`}></span>
               </h2>
             </div>
-            <p className="description desc-justify">
-             I served as the lead developer in creating the official website for Highland Internationals,
-             a major overseas recruitment agency. The platform features a secure ad posting system
-             and a responsive contact form integrated with backend storage. This agency operates at a
-             large scale, sending hundreds of workers abroad monthly, and has also maintained professional
-             relations with global brands, including IKEA.
+            <p className="description desc-justify mobile-text">
+I served as the lead developer in creating the official website for Highland Internationals, a major overseas recruitment agency. The platform features a secure ad posting system and a responsive contact form integrated with backend storage. This agency operates at a large scale, sending hundreds of workers abroad monthly, and has also maintained professional relations with global brands, including IKEA.
+
 
             </p>
             <button className="glass-button" onClick={handleClick}>GitHub</button>
