@@ -372,3 +372,110 @@ background-size: cover;
   color: black;
   border: 2px solid black;
 }
+
+/* 📱 Mobile Responsiveness: max-width 768px */
+@media (max-width: 768px) {
+  .Introduction {
+    font-size: 2rem;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .desc-justify {
+    font-size: 1rem;
+    padding: 0 10px;
+    line-height: 1.5;
+  }
+
+  .wrapper2.card-black,
+  .wrapper3.card-black,
+  .wrapper4.card-black {
+    padding: 20px 15px;
+    margin: 20px 10px;
+    width: 90%;
+  }
+
+  .tech-slider.card-black {
+    padding: 15px;
+    flex-direction: column;
+  }
+
+  .slider-track {
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: none;
+  }
+
+  .slider-track img {
+    height: 40px;
+    margin: 15px;
+  }
+
+  .novel-wrapper {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .novel-card {
+    width: 90%;
+    height: auto;
+    min-height: auto;
+    padding: 15px;
+  }
+
+  .novel-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .bungee-heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .novel-floating {
+    font-size: 0.9rem;
+    padding: 12px;
+    transform: none;
+  }
+
+  .glass-button {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .intro-heading-container {
+    text-align: center;
+    align-items: center;
+  }
+
+  .center-underline {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .wrapperx,
+  .wrapper {
+    padding-top: 20px;
+  }
+
+  .other {
+    margin-top: 200px;
+  }
+
+  .margin {
+    margin-top: 20px;
+  }
+
+  .novel-section {
+    margin-top: 100px;
+    padding: 30px 10px;
+  }
+}
