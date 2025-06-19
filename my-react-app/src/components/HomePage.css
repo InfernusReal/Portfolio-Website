@@ -542,6 +542,7 @@ background-size: cover;
   font-size: 1.1rem;
   line-height: 1.6;
   letter-spacing: 0.01em;
+  text-justify: auto;
   margin: 0 auto;
   max-width: 520px;
 }
