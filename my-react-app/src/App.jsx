@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import { Analytics } from '@vercel/analytics/react';
 import viteLogo from '/vite.svg'
 import './App.css'
 import HomePage from './components/HomePage'
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Praised" element={<Praisedroute/>} />
         
       </Routes>
+       <Analytics />
     </>
   )
 }
