@@ -63,6 +63,8 @@ background-size: cover;
   font-family: 'Bungee', sans-serif;
   animation: upDownFade 1s cubic-bezier(.4,2,.6,1);
   margin-bottom: 150px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* makes it POP */
 }
 
 .wrapper2.card-black {
