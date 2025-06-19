@@ -373,55 +373,136 @@ background-size: cover;
   border: 2px solid black;
 }
 
-/* 📱 Mobile Responsiveness: max-width 768px */
+/* 📱 MOBILE REWRITE: Infernus Perfection Mode */
 @media (max-width: 768px) {
+  /* === Global Resets for Mobile === */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .wrapperx,
+  .wrapper {
+    padding-top: 20px;
+  }
+
+  .other {
+    margin-top: 80px; /* was 2500px */
+  }
+
+  .margin {
+    margin-top: 20px;
+    padding: 0 12px;
+  }
+
   .Introduction {
-    font-size: 2rem;
-    margin-bottom: 60px;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-bottom: 40px;
     text-align: center;
+    padding: 0 10px;
+  }
+
+  .subheading {
+    font-size: 1.3rem;
   }
 
   .desc-justify {
+    text-align: center;
     font-size: 1rem;
-    padding: 0 10px;
     line-height: 1.5;
+    padding: 0 12px;
+    max-width: 100%;
   }
 
-  .wrapper2.card-black,
-  .wrapper3.card-black,
-  .wrapper4.card-black {
-    padding: 20px 15px;
-    margin: 20px 10px;
-    width: 90%;
+  .center-underline {
+    margin-bottom: 10px;
   }
 
+  .underline-anim {
+    height: 2px;
+  }
+
+  /* === Section 1 Card === */
+  .wrapper2.card-black {
+    padding: 16px 14px;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  /* === Section 2 Card === */
+  .wrapper.section2-spacing {
+    padding-top: 10px;
+    margin-top: 0;
+  }
+
+  .wrapper3.card-black {
+    padding: 18px 14px;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  /* === Tech Slider === */
   .tech-slider.card-black {
-    padding: 15px;
+    padding: 14px;
     flex-direction: column;
+    margin: 60px auto 30px auto;
+    width: 95%;
   }
 
   .slider-track {
     flex-wrap: wrap;
     justify-content: center;
-    animation: none;
+    animation: none !important;
+    white-space: normal;
+    gap: 14px;
+    padding: 10px 0;
   }
 
   .slider-track img {
-    height: 40px;
-    margin: 15px;
+    height: 42px;
+    width: auto;
+    margin: 6px 14px;
+  }
+
+  /* === Section 3 (Highland Project) === */
+  .wrapper4.card-black {
+    padding: 18px 14px;
+    width: 92%;
+    margin: 40px auto 100px auto;
+  }
+
+  /* === Button === */
+  .glass-button {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 18px;
+  }
+
+  /* === Novel Section === */
+  .novel-section {
+    padding: 30px 12px;
+    margin-top: 90px;
+  }
+
+  .bungee-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
   }
 
   .novel-wrapper {
     flex-direction: column;
-    gap: 20px;
     align-items: center;
+    gap: 25px;
   }
 
   .novel-card {
     width: 90%;
     height: auto;
     min-height: auto;
-    padding: 15px;
+    padding: 16px;
   }
 
   .novel-image {
@@ -429,22 +510,11 @@ background-size: cover;
     height: auto;
   }
 
-  .bungee-heading {
-    font-size: 2rem;
-    text-align: center;
-  }
-
   .novel-floating {
-    font-size: 0.9rem;
-    padding: 12px;
+    font-size: 0.95rem;
+    padding: 14px;
     transform: none;
-  }
-
-  .glass-button {
-    width: 100%;
-    text-align: center;
-    padding: 12px;
-    font-size: 1rem;
+    margin-top: 20px;
   }
 
   .vertical-line {
@@ -456,26 +526,14 @@ background-size: cover;
     align-items: center;
   }
 
-  .center-underline {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+  /* === Minor Enhancements === */
+  .glass-shine {
+    display: none; /* Performance boost for low-end phones */
   }
+}
 
-  .wrapperx,
-  .wrapper {
-    padding-top: 20px;
-  }
-
+@media (max-width: 768px) {
   .other {
-    margin-top: 200px;
-  }
-
-  .margin {
-    margin-top: 20px;
-  }
-
-  .novel-section {
-    margin-top: 100px;
-    padding: 30px 10px;
+    margin-top: 3400px; /* corrected mobile spacing */
   }
 }
