@@ -539,10 +539,7 @@ background-size: cover;
   .desc-justify {
   text-align: justify;
   color: #f3f3f3;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  letter-spacing: 0.01em;
-  text-justify: 10px;
+  text-justify: 1px;
   margin: 0 auto;
   max-width: 520px;
 }
