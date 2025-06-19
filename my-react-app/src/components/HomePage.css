@@ -536,4 +536,13 @@ background-size: cover;
   .other {
     margin-top: 3400px; /* corrected mobile spacing */
   }
+  .desc-justify {
+  text-align: justify;
+  color: #f3f3f3;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  margin: 0 auto;
+  max-width: 520px;
+}
 }
