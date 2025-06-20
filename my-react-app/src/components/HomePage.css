@@ -375,179 +375,9 @@ background-size: cover;
   border: 2px solid black;
 }
 
-/* 📱 MOBILE REWRITE: Infernus Perfection Mode */
-@media (max-width: 452px) {
-  /* === Global Resets for Mobile === */
-  html, body {
-    overflow-x: hidden;
-  }
 
-  .wrapperx,
-  .wrapper {
-    padding-top: 20px;
-  }
 
-  .other {
-    margin-top: 80px; /* was 2500px */
-  }
-
-  .margin {
-    margin-top: 20px;
-    padding: 0 12px;
-  }
-
-  .Introduction {
-    font-size: 1.7rem;
-    line-height: 2.2rem;
-    margin-bottom: 40px;
-    text-align: center;
-    padding: 0 10px;
-  }
-
-  .subheading {
-    font-size: 1.3rem;
-  }
-
-  .desc-justify {
-    text-align: center;
-    font-size: 1rem;
-    line-height: 1.5;
-    padding: 0 12px;
-    max-width: 100%;
-  }
-
-  .center-underline {
-    margin-bottom: 10px;
-  }
-
-  .underline-anim {
-    height: 2px;
-  }
-
-  /* === Section 1 Card === */
-  .wrapper2.card-black {
-    padding: 16px 14px;
-    width: 92%;
-    margin: 0 auto;
-  }
-
-  /* === Section 2 Card === */
-  .wrapper.section2-spacing {
-    padding-top: 10px;
-    margin-top: 0;
-  }
-
-  .wrapper3.card-black {
-    padding: 18px 14px;
-    width: 92%;
-    margin: 0 auto;
-  }
-
-  /* === Tech Slider === */
-  .tech-slider.card-black {
-    padding: 14px;
-    flex-direction: column;
-    margin: 60px auto 30px auto;
-    width: 95%;
-  }
-
-  .slider-track {
-    flex-wrap: wrap;
-    justify-content: center;
-    animation: none !important;
-    white-space: normal;
-    gap: 14px;
-    padding: 10px 0;
-  }
-
-  .slider-track img {
-    height: 42px;
-    width: auto;
-    margin: 6px 14px;
-  }
-
-  /* === Section 3 (Highland Project) === */
-  .wrapper4.card-black {
-    padding: 18px 14px;
-    width: 92%;
-    margin: 40px auto 100px auto;
-  }
-
-  /* === Button === */
-  .glass-button {
-    width: 100%;
-    padding: 12px 16px;
-    font-size: 1rem;
-    text-align: center;
-    margin-top: 18px;
-  }
-
-  /* === Novel Section === */
-  .novel-section {
-    padding: 30px 12px;
-    margin-top: 90px;
-  }
-
-  .bungee-heading {
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-
-  .novel-wrapper {
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-  }
-
-  .novel-card {
-    width: 90%;
-    height: auto;
-    min-height: auto;
-    padding: 16px;
-  }
-
-  .novel-image {
-    width: 100%;
-    height: auto;
-  }
-
-  .novel-floating {
-    font-size: 0.95rem;
-    padding: 14px;
-    transform: none;
-    margin-top: 20px;
-  }
-
-  .vertical-line {
-    display: none;
-  }
-
-  .intro-heading-container {
-    text-align: center;
-    align-items: center;
-  }
-
-  /* === Minor Enhancements === */
-  .glass-shine {
-    display: none; /* Performance boost for low-end phones */
-  }
-}
-
-@media (max-width: 452px) {
-  .other {
-    margin-top: 4000px; /* corrected mobile spacing */
-  }
-  .desc-justify {
-    text-align: justify;
-    hyphens: auto;
-    line-height: 1.5;
-    padding: 0 12px;
-}
-
-}
-
-@media (max-width: 1024px){
+@media (max-width: 300px){
     html, body {
     overflow-x: hidden;
   }
@@ -558,7 +388,7 @@ background-size: cover;
   }
 
   .other {
-    margin-top: 3500px; /* was 2500px */
+    margin-top: 4000px; /* was 2500px */
   }
 
   .margin {
@@ -704,8 +534,189 @@ background-size: cover;
   }
 }
 
-@media (max-width: 528px) {
-  /* === Global Resets for Mobile === */
+
+@media (max-width: 300px) {
+  .desc-justify {
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.5;
+    padding: 0 12px;
+}
+.logo-duplicates{
+  display: none;
+}
+
+
+}
+
+@media (min-width: 301px) and (max-width: 355px) {
+      html, body {
+    overflow-x: hidden;
+  }
+
+  .wrapperx,
+  .wrapper {
+    padding-top: 20px;
+  }
+
+  .other {
+    margin-top: 4000px; /* was 2500px */
+  }
+
+  .margin {
+    margin-top: 20px;
+    padding: 0 12px;
+  }
+
+  .Introduction {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .subheading {
+    font-size: 1.3rem;
+  }
+
+  .desc-justify {
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.5;
+    padding: 0 12px;
+}
+
+  .center-underline {
+    margin-bottom: 10px;
+  }
+
+  .underline-anim {
+    height: 2px;
+  }
+
+  /* === Section 1 Card === */
+  .wrapper2.card-black {
+    padding: 16px 14px;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  /* === Section 2 Card === */
+  .wrapper.section2-spacing {
+    padding-top: 10px;
+    margin-top: 0;
+  }
+
+  .wrapper3.card-black {
+    padding: 18px 14px;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  /* === Tech Slider === */
+  .tech-slider.card-black {
+    padding: 14px;
+    flex-direction: column;
+    margin: 60px auto 30px auto;
+    width: 95%;
+  }
+
+  .slider-track {
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: none !important;
+    white-space: normal;
+    gap: 14px;
+    padding: 10px 0;
+  }
+
+  .slider-track img {
+    height: 42px;
+    width: auto;
+    margin: 6px 14px;
+  }
+
+  /* === Section 3 (Highland Project) === */
+  .wrapper4.card-black {
+    padding: 18px 14px;
+    width: 92%;
+    margin: 40px auto 100px auto;
+  }
+
+  /* === Button === */
+  .glass-button {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 18px;
+  }
+
+  /* === Novel Section === */
+  .novel-section {
+    padding: 30px 12px;
+    margin-top: 90px;
+  }
+
+  .bungee-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .novel-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .novel-card {
+    width: 90%;
+    height: auto;
+    min-height: auto;
+    padding: 16px;
+  }
+
+  .novel-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .novel-floating {
+    font-size: 0.95rem;
+    padding: 14px;
+    transform: none;
+    margin-top: 20px;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .intro-heading-container {
+    text-align: center;
+    align-items: center;
+  }
+
+  /* === Minor Enhancements === */
+  .glass-shine {
+    display: none; /* Performance boost for low-end phones */
+  }
+      .desc-justify {
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.5;
+    padding: 0 12px;
+}
+.logo-duplicates{
+  display: none;
+}
+
+}
+
+@media (min-width: 356px) and (max-width: 415px) {
+    /* === Global Resets for Mobile === */
   html, body {
     overflow-x: hidden;
   }
@@ -861,19 +872,698 @@ background-size: cover;
     display: none; /* Performance boost for low-end phones */
   }
 }
-
-@media (max-width: 528px) {
-  .desc-justify {
+@media (min-width: 356px) and (max-width: 415px) {
+    .desc-justify {
     text-align: justify;
     hyphens: auto;
     line-height: 1.5;
     padding: 0 12px;
 }
-
+.logo-duplicates{
+  display: none;
 }
 
-@media (max-width: 632px) {
-  /* === Global Resets for Mobile === */
+}
+@media (min-width: 416px) and (max-width: 475px) {
+   /* === Global Resets for Mobile === */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .wrapperx,
+  .wrapper {
+    padding-top: 20px;
+  }
+
+  .other {
+    margin-top: 3500px; /* was 2500px */
+  }
+
+  .margin {
+    margin-top: 20px;
+    padding: 0 12px;
+  }
+
+  .Introduction {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .subheading {
+    font-size: 1.3rem;
+  }
+
+  .desc-justify {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0 12px;
+    max-width: 100%;
+  }
+
+  .center-underline {
+    margin-bottom: 10px;
+  }
+
+  .underline-anim {
+    height: 2px;
+  }
+
+  /* === Section 1 Card === */
+  .wrapper2.card-black {
+    padding: 16px 14px;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  /* === Section 2 Card === */
+  .wrapper.section2-spacing {
+    padding-top: 10px;
+    margin-top: 0;
+  }
+
+  .wrapper3.card-black {
+    padding: 18px 14px;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  /* === Tech Slider === */
+  .tech-slider.card-black {
+    padding: 14px;
+    flex-direction: column;
+    margin: 60px auto 30px auto;
+    width: 95%;
+  }
+
+  .slider-track {
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: none !important;
+    white-space: normal;
+    gap: 14px;
+    padding: 10px 0;
+  }
+
+  .slider-track img {
+    height: 42px;
+    width: auto;
+    margin: 6px 14px;
+  }
+
+  /* === Section 3 (Highland Project) === */
+  .wrapper4.card-black {
+    padding: 18px 14px;
+    width: 92%;
+    margin: 40px auto 100px auto;
+  }
+
+  /* === Button === */
+  .glass-button {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 18px;
+  }
+
+  /* === Novel Section === */
+  .novel-section {
+    padding: 30px 12px;
+    margin-top: 90px;
+  }
+
+  .bungee-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .novel-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .novel-card {
+    width: 90%;
+    height: auto;
+    min-height: auto;
+    padding: 16px;
+  }
+
+  .novel-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .novel-floating {
+    font-size: 0.95rem;
+    padding: 14px;
+    transform: none;
+    margin-top: 20px;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .intro-heading-container {
+    text-align: center;
+    align-items: center;
+  }
+
+  /* === Minor Enhancements === */
+  .glass-shine {
+    display: none; /* Performance boost for low-end phones */
+  }
+}
+@media (min-width: 416px) and (max-width: 475px) {
+    .desc-justify {
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.5;
+    padding: 0 12px;
+}
+.logo-duplicates{
+  display: none;
+}
+}
+
+
+@media (min-width: 476px) and (max-width: 530px) {
+     /* === Global Resets for Mobile === */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .wrapperx,
+  .wrapper {
+    padding-top: 20px;
+  }
+
+  .other {
+    margin-top: 3200px; /* was 2500px */
+  }
+
+  .margin {
+    margin-top: 20px;
+    padding: 0 12px;
+  }
+
+  .Introduction {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .subheading {
+    font-size: 1.3rem;
+  }
+
+  .desc-justify {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0 12px;
+    max-width: 100%;
+  }
+
+  .center-underline {
+    margin-bottom: 10px;
+  }
+
+  .underline-anim {
+    height: 2px;
+  }
+
+  /* === Section 1 Card === */
+  .wrapper2.card-black {
+    padding: 16px 14px;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  /* === Section 2 Card === */
+  .wrapper.section2-spacing {
+    padding-top: 10px;
+    margin-top: 0;
+  }
+
+  .wrapper3.card-black {
+    padding: 18px 14px;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  /* === Tech Slider === */
+  .tech-slider.card-black {
+    padding: 14px;
+    flex-direction: column;
+    margin: 60px auto 30px auto;
+    width: 95%;
+  }
+
+  .slider-track {
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: none !important;
+    white-space: normal;
+    gap: 14px;
+    padding: 10px 0;
+  }
+
+  .slider-track img {
+    height: 42px;
+    width: auto;
+    margin: 6px 14px;
+  }
+
+  /* === Section 3 (Highland Project) === */
+  .wrapper4.card-black {
+    padding: 18px 14px;
+    width: 92%;
+    margin: 40px auto 100px auto;
+  }
+
+  /* === Button === */
+  .glass-button {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 18px;
+  }
+
+  /* === Novel Section === */
+  .novel-section {
+    padding: 30px 12px;
+    margin-top: 90px;
+  }
+
+  .bungee-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .novel-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .novel-card {
+    width: 90%;
+    height: auto;
+    min-height: auto;
+    padding: 16px;
+  }
+
+  .novel-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .novel-floating {
+    font-size: 0.95rem;
+    padding: 14px;
+    transform: none;
+    margin-top: 20px;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .intro-heading-container {
+    text-align: center;
+    align-items: center;
+  }
+
+  /* === Minor Enhancements === */
+  .glass-shine {
+    display: none; /* Performance boost for low-end phones */
+  }
+}
+
+@media (min-width: 476px) and (max-width: 530px) {
+    .desc-justify {
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.5;
+    padding: 0 12px;
+}
+.logo-duplicates{
+  display: none;
+}
+}
+
+@media (min-width: 531px) and (max-width: 580px) {
+     /* === Global Resets for Mobile === */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .wrapperx,
+  .wrapper {
+    padding-top: 20px;
+  }
+
+  .other {
+    margin-top: 3200px; /* was 2500px */
+  }
+
+  .margin {
+    margin-top: 20px;
+    padding: 0 12px;
+  }
+
+  .Introduction {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .subheading {
+    font-size: 1.3rem;
+  }
+
+  .desc-justify {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0 12px;
+    max-width: 100%;
+  }
+
+  .center-underline {
+    margin-bottom: 10px;
+  }
+
+  .underline-anim {
+    height: 2px;
+  }
+
+  /* === Section 1 Card === */
+  .wrapper2.card-black {
+    padding: 16px 14px;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  /* === Section 2 Card === */
+  .wrapper.section2-spacing {
+    padding-top: 10px;
+    margin-top: 0;
+  }
+
+  .wrapper3.card-black {
+    padding: 18px 14px;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  /* === Tech Slider === */
+  .tech-slider.card-black {
+    padding: 14px;
+    flex-direction: column;
+    margin: 60px auto 30px auto;
+    width: 95%;
+  }
+
+  .slider-track {
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: none !important;
+    white-space: normal;
+    gap: 14px;
+    padding: 10px 0;
+  }
+
+  .slider-track img {
+    height: 42px;
+    width: auto;
+    margin: 6px 14px;
+  }
+
+  /* === Section 3 (Highland Project) === */
+  .wrapper4.card-black {
+    padding: 18px 14px;
+    width: 92%;
+    margin: 40px auto 100px auto;
+  }
+
+  /* === Button === */
+  .glass-button {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 18px;
+  }
+
+  /* === Novel Section === */
+  .novel-section {
+    padding: 30px 12px;
+    margin-top: 90px;
+  }
+
+  .bungee-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .novel-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .novel-card {
+    width: 90%;
+    height: auto;
+    min-height: auto;
+    padding: 16px;
+  }
+
+  .novel-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .novel-floating {
+    font-size: 0.95rem;
+    padding: 14px;
+    transform: none;
+    margin-top: 20px;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .intro-heading-container {
+    text-align: center;
+    align-items: center;
+  }
+
+  /* === Minor Enhancements === */
+  .glass-shine {
+    display: none; /* Performance boost for low-end phones */
+  }
+}
+@media (min-width: 531px) and (max-width: 580px) {
+    .desc-justify {
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.5;
+    padding: 0 12px;
+}
+.logo-duplicates{
+  display: none;
+}
+}
+
+@media (min-width: 581px) and (max-width: 635px) {
+       /* === Global Resets for Mobile === */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .wrapperx,
+  .wrapper {
+    padding-top: 20px;
+  }
+
+  .other {
+    margin-top: 3000px; /* was 2500px */
+  }
+
+  .margin {
+    margin-top: 20px;
+    padding: 0 12px;
+  }
+
+  .Introduction {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .subheading {
+    font-size: 1.3rem;
+  }
+
+  .desc-justify {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0 12px;
+    max-width: 100%;
+  }
+
+  .center-underline {
+    margin-bottom: 10px;
+  }
+
+  .underline-anim {
+    height: 2px;
+  }
+
+  /* === Section 1 Card === */
+  .wrapper2.card-black {
+    padding: 16px 14px;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  /* === Section 2 Card === */
+  .wrapper.section2-spacing {
+    padding-top: 10px;
+    margin-top: 0;
+  }
+
+  .wrapper3.card-black {
+    padding: 18px 14px;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  /* === Tech Slider === */
+  .tech-slider.card-black {
+    padding: 14px;
+    flex-direction: column;
+    margin: 60px auto 30px auto;
+    width: 95%;
+  }
+
+  .slider-track {
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: none !important;
+    white-space: normal;
+    gap: 14px;
+    padding: 10px 0;
+  }
+
+  .slider-track img {
+    height: 42px;
+    width: auto;
+    margin: 6px 14px;
+  }
+
+  /* === Section 3 (Highland Project) === */
+  .wrapper4.card-black {
+    padding: 18px 14px;
+    width: 92%;
+    margin: 40px auto 100px auto;
+  }
+
+  /* === Button === */
+  .glass-button {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 18px;
+  }
+
+  /* === Novel Section === */
+  .novel-section {
+    padding: 30px 12px;
+    margin-top: 90px;
+  }
+
+  .bungee-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .novel-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .novel-card {
+    width: 90%;
+    height: auto;
+    min-height: auto;
+    padding: 16px;
+  }
+
+  .novel-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .novel-floating {
+    font-size: 0.95rem;
+    padding: 14px;
+    transform: none;
+    margin-top: 20px;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .intro-heading-container {
+    text-align: center;
+    align-items: center;
+  }
+
+  /* === Minor Enhancements === */
+  .glass-shine {
+    display: none; /* Performance boost for low-end phones */
+  }
+}
+@media (min-width: 581px) and (max-width: 635px) {
+    .desc-justify {
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.5;
+    padding: 0 12px;
+}
+.logo-duplicates{
+  display: none;
+}
+}
+
+@media (min-width: 636px) and (max-width: 686px) {
+         /* === Global Resets for Mobile === */
   html, body {
     overflow-x: hidden;
   }
@@ -1030,19 +1720,20 @@ background-size: cover;
   }
 }
 
-@media (max-width: 632px) {
-  .desc-justify {
+@media (min-width: 636px) and (max-width: 686px) {
+    .desc-justify {
     text-align: justify;
     hyphens: auto;
     line-height: 1.5;
     padding: 0 12px;
 }
-
+.logo-duplicates{
+  display: none;
+}
 }
 
-@media (max-width: 766px) {
-  /* === Global Resets for Mobile === */
-  html, body {
+@media (min-width: 687px) and (max-width: 737px) {
+ html, body {
     overflow-x: hidden;
   }
 
@@ -1052,7 +1743,7 @@ background-size: cover;
   }
 
   .other {
-    margin-top: 2900px; /* was 2500px */
+    margin-top: 3000px; /* was 2500px */
   }
 
   .margin {
@@ -1197,19 +1888,19 @@ background-size: cover;
     display: none; /* Performance boost for low-end phones */
   }
 }
-
-@media (max-width: 766px) {
-  .desc-justify {
+@media (min-width: 687px) and (max-width: 737px) {
+.desc-justify {
     text-align: justify;
     hyphens: auto;
     line-height: 1.5;
     padding: 0 12px;
 }
-
+.logo-duplicates{
+  display: none;
 }
-@media (max-width: 853px) {
-  /* === Global Resets for Mobile === */
-  html, body {
+}
+@media (min-width: 738px) and (max-width: 1024px) {
+ html, body {
     overflow-x: hidden;
   }
 
@@ -1218,8 +1909,11 @@ background-size: cover;
     padding-top: 20px;
   }
 
+.logo-duplicates{
+  display: none;
+}
   .other {
-    margin-top: 2900px; /* was 2500px */
+    margin-top: 2800px; /* was 2500px */
   }
 
   .margin {
@@ -1364,180 +2058,11 @@ background-size: cover;
     display: none; /* Performance boost for low-end phones */
   }
 }
-
-@media (max-width: 853px) {
+@media (min-width: 738px) and (max-width: 1000px) {
   .desc-justify {
     text-align: justify;
     hyphens: auto;
     line-height: 1.5;
     padding: 0 12px;
 }
-
-}
-@media (max-width: 1025px) {
-  /* === Global Resets for Mobile === */
-  html, body {
-    overflow-x: hidden;
-  }
-
-  .wrapperx,
-  .wrapper {
-    padding-top: 20px;
-  }
-
-  .other {
-    margin-top: 2900px; /* was 2500px */
-  }
-
-  .margin {
-    margin-top: 20px;
-    padding: 0 12px;
-  }
-
-  .Introduction {
-    font-size: 1.7rem;
-    line-height: 2.2rem;
-    margin-bottom: 40px;
-    text-align: center;
-    padding: 0 10px;
-  }
-
-  .subheading {
-    font-size: 1.3rem;
-  }
-
-  .desc-justify {
-    text-align: center;
-    font-size: 1rem;
-    line-height: 1.5;
-    padding: 0 12px;
-    max-width: 100%;
-  }
-
-  .center-underline {
-    margin-bottom: 10px;
-  }
-
-  .underline-anim {
-    height: 2px;
-  }
-
-  /* === Section 1 Card === */
-  .wrapper2.card-black {
-    padding: 16px 14px;
-    width: 92%;
-    margin: 0 auto;
-  }
-
-  /* === Section 2 Card === */
-  .wrapper.section2-spacing {
-    padding-top: 10px;
-    margin-top: 0;
-  }
-
-  .wrapper3.card-black {
-    padding: 18px 14px;
-    width: 92%;
-    margin: 0 auto;
-  }
-
-  /* === Tech Slider === */
-  .tech-slider.card-black {
-    padding: 14px;
-    flex-direction: column;
-    margin: 60px auto 30px auto;
-    width: 95%;
-  }
-
-  .slider-track {
-    flex-wrap: wrap;
-    justify-content: center;
-    animation: none !important;
-    white-space: normal;
-    gap: 14px;
-    padding: 10px 0;
-  }
-
-  .slider-track img {
-    height: 42px;
-    width: auto;
-    margin: 6px 14px;
-  }
-
-  /* === Section 3 (Highland Project) === */
-  .wrapper4.card-black {
-    padding: 18px 14px;
-    width: 92%;
-    margin: 40px auto 100px auto;
-  }
-
-  /* === Button === */
-  .glass-button {
-    width: 100%;
-    padding: 12px 16px;
-    font-size: 1rem;
-    text-align: center;
-    margin-top: 18px;
-  }
-
-  /* === Novel Section === */
-  .novel-section {
-    padding: 30px 12px;
-    margin-top: 90px;
-  }
-
-  .bungee-heading {
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-
-  .novel-wrapper {
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-  }
-
-  .novel-card {
-    width: 90%;
-    height: auto;
-    min-height: auto;
-    padding: 16px;
-  }
-
-  .novel-image {
-    width: 100%;
-    height: auto;
-  }
-
-  .novel-floating {
-    font-size: 0.95rem;
-    padding: 14px;
-    transform: none;
-    margin-top: 20px;
-  }
-
-  .vertical-line {
-    display: none;
-  }
-
-  .intro-heading-container {
-    text-align: center;
-    align-items: center;
-  }
-
-  /* === Minor Enhancements === */
-  .glass-shine {
-    display: none; /* Performance boost for low-end phones */
-  }
-}
-
-@media (max-width: 1025px) {
-  .desc-justify {
-    text-align: justify;
-    hyphens: auto;
-    line-height: 1.5;
-    padding: 0 12px;
-}
-
 }

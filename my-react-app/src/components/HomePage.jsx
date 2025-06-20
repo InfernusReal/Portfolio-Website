@@ -172,6 +172,7 @@ function HomePage() {
     <img src="/logos/Framermotion.png" alt="Framer Motion" />
 
     {/* Duplicate for infinite loop */}
+  <div className="logo-duplicates">
     <img src="/logos/html.png" alt="HTML" />
     <img src="/logos/css.png" alt="CSS" />
     <img src="/logos/js.png" alt="JS" />
@@ -180,6 +181,7 @@ function HomePage() {
     <img src="/logos/mysql.png" alt="MySQL" />
     <img src="/logos/mongodb.png" alt="MongoDB" />
     <img src="/logos/Framermotion.png" alt="Framer Motion" />
+  </div>
   </div>
 </div>
     )
