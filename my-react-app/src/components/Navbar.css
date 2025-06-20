@@ -7,14 +7,13 @@
 body {
   overflow-x: hidden;
 }
-
 /* === NAVBAR === */
 .navbar {
   position: fixed;
     font-family: 'Bungee', sans-serif;
   top: 0.5%;
-  left: 35%;
-  right: 35%;
+  left: 25%;
+  right: 25%;
   height: 54px;
   background: transparent;
   transition: background 0.3s ease;
@@ -41,15 +40,6 @@ body {
 }
 
 /* === LOGO === */
-.logo {
-  font-size: 1.1rem;
-  color: white;
-  font-weight: bold;
-  letter-spacing: 1px;
-  cursor: pointer;
-  padding-top: 4px;   /* ✅ Add some space from the top */
-  padding-bottom: 4px
-}
 
 /* === NAV LINKS === */
 .nav-links {
@@ -63,7 +53,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 0.9rem;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 300;
   transition: color 0.3s ease;
 }
 
@@ -72,4 +62,36 @@ body {
 }
 .nav-links{
     color: white;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    left: 5%;
+    right: 5%;
+    height: 50px;
+  }
+
+  .nav-links {
+    gap: 16px;
+  }
+
+  .nav-links li {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    left: 3%;
+    right: 3%;
+    height: 46px;
+  }
+
+  .nav-links {
+    gap: 12px;
+  }
+
+  .nav-links li {
+    font-size: 0.65rem;
+  }
 }
