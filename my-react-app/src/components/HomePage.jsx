@@ -79,7 +79,7 @@ function HomePage() {
         delay: 0.4,
         scrollTrigger: {
           trigger: section2Ref.current,
-          start: "top 85%",
+          start: "top 95%",
           toggleActions: "play none none none",
         },
       }
@@ -116,7 +116,7 @@ function HomePage() {
         window.location.href = "https://github.com/InfernusReal/The-Prodigious-Hub.";
     };
     return (
-      <div className="wrapper section2-spacing  " ref={section2Ref}>
+      <div className="wrapper section2-spacing  " ref={section2Ref} id="projects">
         <div className="margin">
           <h1 className="Introduction">Coding related projects.</h1>
           <div className="wrapper3 card-black">
@@ -231,7 +231,7 @@ const Section3=()=>{
         delay: 0.4,
         scrollTrigger: {
           trigger: section2Ref.current,
-          start: "top 85%",
+          start: "top 115%",
           toggleActions: "play none none none",
         },
       }
@@ -316,7 +316,7 @@ function Section4() {
   ];
 
   return (
-    <div className="novel-section bg2 ">
+    <div className="novel-section bg2 " id="novels">
       <h1 className="bungee-heading">Writing Projects</h1>
       <div className="novel-wrapper">
         {novels.map((novel, index) => (

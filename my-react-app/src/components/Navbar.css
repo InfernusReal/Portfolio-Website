@@ -1,0 +1,75 @@
+/* === RESET & BASE === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* === NAVBAR === */
+.navbar {
+  position: fixed;
+    font-family: 'Bungee', sans-serif;
+  top: 0.5%;
+  left: 35%;
+  right: 35%;
+  height: 54px;
+  background: transparent;
+  transition: background 0.3s ease;
+  border: 1px solid #4e4e4e;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;     /* Center horizontally */
+  align-items: center;         /* Center vertically */
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+.navbar:hover{
+    border: 1px solid #00ffff;
+}
+.navbar-scrolled {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.navbar-inner {
+  display: flex;
+  justify-content: center;     /* ✅ Center horizontally */
+  align-items: center;         /* ✅ Center vertically */
+}
+
+/* === LOGO === */
+.logo {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding-top: 4px;   /* ✅ Add some space from the top */
+  padding-bottom: 4px
+}
+
+/* === NAV LINKS === */
+.nav-links {
+  list-style: none;
+  display: flex;
+
+  gap: 28px;
+}
+
+.nav-links li {
+  color: rgb(255, 255, 255);
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #00ffff;
+}
+.nav-links{
+    color: white;
+}
