@@ -8,6 +8,7 @@ import { Routes, Route } from "react-router-dom";
 import EclipseRoute from './components/EclipseRoute/EclipseRoute';
 import InfernalRoute from './components/InfernalRoute/InfernalRoute'
 import Praisedroute from './components/PraisedRoute/Praised'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 function App() {
 
   return (
@@ -20,6 +21,7 @@ function App() {
         
       </Routes>
        <Analytics />
+       <SpeedInsights />
     </>
   )
 }
