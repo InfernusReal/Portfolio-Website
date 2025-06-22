@@ -5,7 +5,7 @@ const AxiosContext = createContext();
 
 export const AxiosProvider = ({ children }) => {
   const axiosInstance = axios.create({
-    baseURL: 'http://localhost:5000/api', // Your backend base URL
+    baseURL: 'https://infernusreal/api', // Your backend base URL
     headers: {
       'Content-Type': 'application/json',
     },
