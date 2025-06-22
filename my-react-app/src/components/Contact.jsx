@@ -22,7 +22,7 @@ function Contact() {
   async function handleSubmit(e) {
     e.preventDefault(); // still prevents button default behavior
     try {
-      await axios.post('http://localhost:5000/api/contact', formData);
+      await axios.post('http://www.infernusreal.com/api/contact', formData);
       alert('Message sent!');
     } catch (err) {
       console.error(err);
